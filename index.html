@@ -1,9 +1,302 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>asdf</title>
-  </head>
-  <body>
-    qwer
-  </body>
+	<head>
+		<meta charset="utf=8">
+		<title>Priscilia's portfolio</title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+		<style>
+			body{
+				font-family: "Arial";
+				margin: 0;
+			}
+
+			nav {
+				text-align: center;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 60px;
+				z-index: 1;
+				background-color: #C1D5EC;
+			}
+
+			nav a {
+				text-decoration: none;
+				color: #000000;
+				font-size: 24px;
+			}
+			
+			nav ul {
+				margin: 0;
+				padding: 0;
+			}
+
+			nav ul li{
+				list-style: none;
+				display: inline-block;
+				padding: 8px 16px;
+			}
+
+			.container {
+				max-width: 840px;
+				margin: auto;
+			}
+
+			#hello {
+				height: 480px;
+				background-color: #DFEBFA;
+				padding: .9rem 3.5rem;
+			}
+
+			img {
+				float: right;
+			}
+
+
+			.hello1{
+				font-size: 6rem;
+				color: #000000;
+				padding: 1rem 0;
+				font-size: 16px;
+				font-weight: bolder;
+				display: block;
+			}
+
+			.hello2{
+				font-size: 6rem;
+				color: #000000;
+				padding: 1rem 0;
+				font-size: 16px;
+				font-weight: bolder;
+				display: block;
+			}
+
+			.btn1{
+				display: inline-block;
+				margin-top: 100px;
+				background: #100E74;
+				color: #fff;
+				padding: .9rem 3.5rem;
+				cursor: pointer;
+				font-size: 1.7rem;
+			}
+
+			.heading{
+				text-align: center;
+				font-size: 2rem;
+				color: #C1D5EC;
+				padding: 1rem;
+				margin: 2rem 0;
+				background: #C1D5EC;
+				margin-top: -100px;
+			}
+				#about {
+				height :500px;
+				background-color: #D1E3F8;
+			}
+
+			#projects {
+				height: 480px;
+				background-color: #DFEBFA;
+			}
+
+				#about article {
+				width: 50%;
+				padding: 8px;
+				display: table-cell;
+				font-size :20px;
+			}
+
+			
+			#about {
+				text-align: center;
+			}
+
+			#about span {
+				display: block;
+				color: #090D64;
+			}
+
+			#projects {
+				text-align : center;
+			}
+
+			#projects span {
+				display: block;
+				color: #090D64;
+				text-align: center;
+			}
+
+			#projects article {
+				width: 50%;
+				padding: 16px;
+				display: table-cell;
+				font-size : 18px;
+			}
+
+			.projects header{
+					border-color: pink;
+			}
+
+			#social span{
+				color: #090D64;
+				font-size: 18px;
+			}
+			#media span{
+				color: #090D64;
+				font-size: 18px;
+			}
+			
+			.how {
+				color: #090D64;
+				font-size: 18px;
+			}
+
+			#contact {
+				background-color: #D1E3F8;
+				color: black;
+				height: 200px;
+				text-align: center;
+				padding: 80px 0;
+				margin-top: 100px;
+			}
+			
+			#about,
+			#projects,
+			#contact {
+				padding: 40px 0;
+			}
+			.banner1{
+				margin-top: 100px;
+			}
+			.grid-container {
+  				display: grid;
+  				grid-template-columns: auto auto auto;
+  				background-color: #2196F3;
+  				padding: 10px;
+			}
+			.grid-item {
+  				background-color: rgba(255, 255, 255, 0.8);
+  				border: 1px solid rgba(0, 0, 0, 0.8);
+  				padding: 20px;
+  				font-size: 30px;
+  				text-align: center;
+			}
+			.heading1{
+				margin-top: 100px;
+				text-align: center;
+				font-size: 2rem;
+				color: #C1D5EC;
+				padding: 1rem;
+				margin: 2rem 0;
+				background: #C1D5EC;
+				margin-bottom: -1px;
+			}
+
+
+		</style>
+	</head>
+	<body style="background-color:#DFEBFA;">
+		<nav>
+			<ul>
+				<li><a href= "#hello"><u><b>HELLO</u></b></a></li>
+				<li><a href="#about"><u><b>ABOUT</u></b></a></li>
+				<li><a href="#projects"><u><b>PROJECTS</u></b></i></a></li>
+				<li><a href="#contact"><u><b>CONTACT</u></b></a></li>
+			</ul>
+		</nav>
+			<div id="hello" class="banner1">
+				<img src="welcome.png">
+				<h3>
+					<span style="position: relative;
+					top: 50px;" class="hello1"></span>
+					<span style="color: #090D64;"><b>WELCOME!</b></span>
+				</h3>
+				<span class="hello2">Hello.<br>
+					My name is Priscilia,  i’m a 2nd year student.
+					I like to learn new things,
+					So i will share my experience through this page, hope you like it!
+				</span><br>
+				<a href="#" class="btn1">take a look</a>
+				</div>
+				<div id="about">
+						<h1 class="heading"><span><U><b><i>About!!!</i></b></U></span></h1>
+						<article>
+						<p><b>Hi there!<br>
+						are you curious about who is Priscilia?<br>
+						 So, Priscilia is a Social Media Specialist with passion of ideas, composing contents and words.<br>
+						 I have spent more than one year as a Social Media Specialist in several organizations. This is something i enjoy because it can be reason to connect and motivate people.</p>
+						</b>
+						</article>
+						<article><br><br>
+						<b>Content Management, Copy Writing, Time Management, Designing, Communication Skills, Teamwork, Creative Campaign, Detail Oriented
+						</b>
+						</article>
+						<h1 class="heading1"><span><b><U><i>PROJECTS</b></U></i></span></h1>
+			<div id="projects">
+				<div class="row">
+					<div class="col-6"><img src="drink.png" style="height: 250px; margin-right: 200px;"></div>
+					<div class="col-6"><img src="gentle.png" style="height: 200px; margin-right: 200px;"></div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<span style="color: #090D64;"><b><i>Social Media Specialist</i></b></span>
+					</div>
+					<div class="col-6">
+						<span style="color: #090D64;"><b><i>Media Staff</i></b></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6"><b><i>Drinkdingdong.id</i></b></div>
+					<div class="col-6"><b><i>Gentle Effect</i></b></div>
+				</div>
+				<div class="row">
+					<div class="col-6"><b>March 2023 - present</b></div>
+					<div class="col-6"><b>June 2022 - Dec 2022</b></div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-6" style="text-align: left; padding-left: 220px;">
+						<ul>
+							<li><b>Design content plans for <br> Instagram Feed, Stories, Reels.</b></li>
+						</ul>
+					</div>
+					<div class="col-6" style="text-align: left; padding-left: 220px;">
+						<ul>
+							<li><b>Creating social media contents and<br> social media report per month.</b></li>
+						</ul>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-6" style="text-align: left;padding-left: 220px;">
+						<ul>
+							<li><b>Produced original social media content, <br> assisted in the management of promotional<br> budgets and coordinated with founder.</b></li>
+						</ul>
+					</div>
+					<div class="col-6" style="text-align: left;padding-left: 220px;">
+						<ul>
+							<li><b>Providing direction to the design team on<br> the visuals of the content that has been<br> planned.</b></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+				<div id="contact">
+					<footer>
+					<h2><span><i><u><b>how to reach me :</b></u></i></span></h2>
+					<p><b>Prisciliaaa36@gmail.com<br>
+						+6281549492927<br>
+						Pontianak, West Borneo</b></p>
+					</footer>
+				</div>
+		</div>
+	</body>
 </html>
+				
